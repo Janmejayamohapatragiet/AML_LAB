@@ -44,7 +44,6 @@ def show_graph(x, y, m, c, mae, mse, rmse, r2):
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 5))
 
-    # Regression Graph
     ax1.scatter(x, y, color="blue", label="Actual Data")
 
     x_line = np.linspace(min(x), max(x), 100)
