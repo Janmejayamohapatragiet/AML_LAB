@@ -63,7 +63,6 @@ def show_graph(x, y, m, c, mae, mse, rmse, r2):
     ax1.grid(True)
     ax1.legend()
 
-    # Metrics Graph
     labels = ["MSE", "MAE", "RMSE", "R²"]
     values = [mse, mae, rmse, r2]
 
