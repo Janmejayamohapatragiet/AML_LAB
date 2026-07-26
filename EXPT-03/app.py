@@ -105,7 +105,7 @@ def render_metrics_comparison(metrics_simple, metrics_multi):
     plt.show()
 
 
-url = 'https://raw.githubusercontent.com/Ayushman2005-cmyk/AML_EXPERIMENTS/main/EXPT-3/studentGradeDataSet.csv'
+url = 'https://raw.githubusercontent.com/Janmejayamohapatragiet/AML_LAB/main/EXPT-03/studentGradeDataSet.csv'
 data = pd.read_csv(url)
 
 print("=== DATASET OVERVIEW ===")
